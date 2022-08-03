@@ -6,9 +6,9 @@ import com.myapp.flowers.model.Flowers
 class Datasource {
     fun loadData(): List<Flowers> {
         return listOf<Flowers>(
-            Flowers(R.string.tulipas),
-            Flowers(R.string.narciso),
-            Flowers(R.string.cravos)
+            Flowers(R.string.tulipas, R.drawable.tulipa),
+            Flowers(R.string.narciso, R.drawable.narsico),
+            Flowers(R.string.cravos, R.drawable.cravo)
         )
     }
 
