@@ -8,7 +8,8 @@ class Datasource {
         return listOf<Flowers>(
             Flowers(R.string.tulipas, R.drawable.tulipa),
             Flowers(R.string.narciso, R.drawable.narsico),
-            Flowers(R.string.cravos, R.drawable.cravo)
+            Flowers(R.string.cravos, R.drawable.cravo),
+            Flowers(R.string.orquideas, R.drawable.orquideas)
         )
     }
 
